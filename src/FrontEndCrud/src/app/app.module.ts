@@ -17,6 +17,15 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatButtonModule } from '@angular/material/button';
 import { MatDatepickerModule } from "@angular/material/datepicker";
 import { MatNativeDateModule } from '@angular/material/core';
+import { MomentDateModule } from "@angular/material-moment-adapter";
+//5. To work with alerts
+import { MatSnackBarModule } from "@angular/material/snack-bar";
+//6. To work with icons
+import { MatIconModule } from "@angular/material/icon";
+//7. To work with modals
+import { MatDialogModule } from "@angular/material/dialog";
+//8. To work with Grids
+import { MatGridListModule } from "@angular/material/grid-list";
 
 @NgModule({
     declarations: [
@@ -34,7 +43,12 @@ import { MatNativeDateModule } from '@angular/material/core';
         MatSelectModule,
         MatButtonModule,
         MatDatepickerModule,
-        MatNativeDateModule
+        MatNativeDateModule,
+        MomentDateModule,
+        MatSnackBarModule,
+        MatIconModule,
+        MatDialogModule,
+        MatGridListModule
     ],
     providers: [],
     bootstrap: [AppComponent]
